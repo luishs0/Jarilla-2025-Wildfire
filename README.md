@@ -8,7 +8,7 @@ The workflow integrates ERA5 hourly reanalysis, the Fire Weather Index (FWI), Se
 
 | File | Language | Description |
 |------|----------|-------------|
-| `topography.py` | Python | Processes the MDT05 (5 m) DEM: slope and aspect (Horn, 1981), wind–slope alignment, per-class statistics, and export of georeferenced layers (GeoTIFF, EPSG:25830) and maps. |
+| `topography.py` | Python | Processes the MDT05 (5 m) DEM: slope and aspect (Horn, 1981), wind–slope alignment, per-class statistics, and export of georeferenced layers (GeoTIFF, EPSG:25830). |
 | `index.js` | Google Earth Engine (JavaScript) | Builds cloud-free pre- and post-fire Sentinel-2 composites and computes NDVI, NDII, NBR and dNBR, classifies burn severity (Key & Benson, 2006), and exports rasters and statistics. |
 | `corridors.js` | Google Earth Engine (JavaScript) | Delineates fire spread corridors (slope ≥ 15°, favorable wind–slope alignment, NDVI above the perimeter median) and validates them against post-fire severity. |
 
