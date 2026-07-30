@@ -56,7 +56,7 @@ function mediaDNBR(mask){
 }
 var altaSev = severidad.gte(5);
 var fuera = corredor.not();
-print('=============== RESULTADOS PARA 5.4 ===============');
+print('=============== RESULTADOS ===============');
 print('Superficie de CORREDORES (ha):', sumaHa(corredor));
 print('dNBR medio DENTRO de corredores:', mediaDNBR(corredor));
 print('dNBR medio FUERA de corredores:', mediaDNBR(fuera));
