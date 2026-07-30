@@ -96,4 +96,4 @@ exportar(NBR_pre,  'jarilla_NBR_pre');
 exportar(NBR_post, 'jarilla_NBR_post');
 exportar(dNBR,     'jarilla_dNBR');
 exportar(severidad,'jarilla_severidad');
-print('>>> Revisar la pestaña TASKS y pulsa RUN en cada exportación.');
+print('>>> Revisar la pestaña TASKS y pulsar RUN en cada exportación.');
